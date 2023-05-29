@@ -1,0 +1,125 @@
+img {
+    width: 100%;
+}
+
+.navbar-brand {
+    width: 50px;
+}
+
+.card {
+    margin: 15px;
+    height: 100%;
+    background-color: rgb(224, 222, 222);
+}
+
+.stages {
+    font-weight: 900;
+}
+
+.footer {
+    background-color: rgb(134, 131, 131);
+    padding: 50px 0;
+    margin-top: 20px;
+}
+
+.socio-link {
+    font-size: 2rem;
+    color: #dddbdf;
+    margin: 10px;
+}
+
+.socio-link:hover {
+    color: white;
+}
+
+.footer p {
+    color: #d5d5d5;
+}
+
+.nav-link{
+    font-family: 'Cousine', monospace;
+}
+body {
+    background-color: rgb(224, 222, 222);
+}
+
+.erno {
+    text-decoration: none;
+    color: rgb(17, 0, 255);
+    font-weight: 900;
+}
+
+.erno:hover {
+    text-decoration: underline;
+    color: rgb(255, 0, 0);
+    transition: 1s;
+}
+
+.btn {
+    background-color: blue;
+    width: 40;
+    height: 40px;
+    margin: auto;
+    animation-name: my_animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes my_animation {
+    0% {
+        background-color: rgb(44, 10, 235);
+        border-radius: 25px;
+        color: rgb(204, 116, 2);
+    }
+
+    25% {
+        background-color: rgb(204, 116, 2);
+        border-radius: 25px;
+        color: rgb(11, 151, 18);
+    }
+
+    50% {
+        background-color: rgb(11, 151, 18);
+        border-radius: 25px;
+        color: rgb(230, 8, 8);
+    }
+
+    75% {
+        background-color: rgb(230, 8, 8);
+        border-radius: 25px;
+        color: rgb(209, 230, 23);
+    }
+
+    100% {
+        background-color: rgb(209, 230, 23);
+        border-radius: 25px;
+        color: rgb(44, 10, 235);
+    }
+}
+
+.btn:hover {
+    animation-play-state: paused;
+}
+
+h1{
+    font-family: 'Podkova', serif
+}
+p{
+    font-family: 'Gentium Book Plus', serif;
+}
+h5{
+    font-family: 'Gentium Book Plus', serif;
+}
+.stages{
+    font-family: 'Gentium Book Plus', serif;
+}
+h2{
+    font-family: 'Cousine', monospace  
+}
+h4{
+    font-family: 'Cousine', monospace
+}
+h3{
+    font-family: 'Podkova', serif  
+}

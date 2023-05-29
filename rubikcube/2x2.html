@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rubik's Cube</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/25bd7a9aa8.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Advent+Pro&family=Alegreya+Sans&family=Bellota+Text&family=Cousine&family=Gentium+Book+Plus:ital@1&family=Playfair&family=Podkova&family=Rubik+Pixels&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Головна</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Натисни
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">Про нас</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1>Як зібрати кубик Рубіка 2х2</h1>
+            </div>
+            <div class="col-md-12">
+                <p>Для початку потрібно визначитися з основною стороною, її ще називають - фронтальна, позначаємо її (Ф
+                    / F). Інші сторони куба можна умовно закодувати так: верх - В / U, низ - Н / D, сторона справа - П /
+                    R, сторона зліва - Л / L, і тильна - Т / В.</p>
+
+                <ul class="stages">При складанні кубика використовуються 2 типу поворотів:
+                    <li>F - поворот фронтальної частини за годинниковою стрілкою на 90 °;</li>
+                    <li>F '- поворот фронтальної частини проти годинникової стрілки на 90 °;</li>
+                    <li>F2 - поворот фронтальної частини за годинниковою стрілкою 2 по 90 ° = 180 °;</li>
+                </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <p><strong>Крок 1. Нижній шар.</strong> Спочатку збираємо нижню межу, потрібно, щоб елементи, які
+                    межують з нижнім шаром,
+                    збіглися за кольором з усіма гранями. Після того як нижній кут зібраний, у вас повинен вийти такий
+                    кубик:</p>
+            </div>
+            <div class="col-md-3">
+                <img src="img/cub14.png" alt="">
+            </div>
+            <div class="col-md-12">
+                <p> <strong>Крок 2. Розташування кубиків верхнього шару.</strong> Збірку верхнього шару чинимо так: для
+                    визначення кольору
+                    дивимося, якого з квітів не спостерігається в нижній лінії, це і є колір верхньої межі. Далі,
+                    потрібно обертати верхівку до того часу, поки кубик (будь-якої) не займе правильне положення,
+                    потрапивши в кут, де перетинаються всі 3 кольори цього елемента. На даному етапі не важливо щоб всі
+                    кольори цього кутового елемента збігалися з квітами прилеглих сторін.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="img/cub15.png" alt="">
+            </div>
+            <div class="col-md-12">
+                <p>Наступний етап такої: виконуючи одну з 2-х формул кутові елементи верхнього шару міняються місцями по
+                    діагоналі, код такий - У Ф П В П 'В' Ф '(U F R U R' U 'F'), або ж йде зміна сусідніх кубів, їх код -
+                    Ф У Ф 'В' Л 'В' Л (F U F 'U' L 'U' L).</p>
+            </div>
+            <div class="col-md-3">
+                <img src="img/cub16.png" alt="">
+            </div>
+            <div class="col-md-3">
+                <img src="img/cub17.png" alt="">
+            </div>
+            <div class="col-md-12">
+                <p> <strong>Крок 3. Виставляємо кутові елементи верхнього шару за кольорами.</strong></p>
+
+                <p>Розгортати кутові елементи за допомогою дуже простої формули. Тримаємо кубик обличчям до себе,
+                    кутовий елемент, який будемо розгортати - справа вгорі. Виконуємо формулу R 'D R D' до тих пір, поки
+                    він не стане на своє місце.</p>
+            </div>
+            <div class="col-md-3">
+                <img src="img/cub18.png" alt="">
+            </div>
+            <div class="col-md-3">
+                <img src="img/cub19.png" alt="">
+            </div>
+            <div class="col-md-12">
+                <p>Комбінації цього кроку потрібно виробляти для віх кутів, які потребують в обертанні. Не можна міняти
+                    положення кубика під час виконання формули. Після того як ви розгорнули перший кут, не міняйте
+                    положення кубика, просто обертайте верхню межу U, поки що потребує в обертанні кут не виявиться у
+                    верхньому правому кутку і потім виконуйте формулу R 'D R D' для нього.</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2 class="text-center">Світовий Рекорд</h2>
+                <hr>
+                <p>Рекорд зі збирання кубика 2 на 2 <strong>0.49</strong> секунди належить польському спідкуберу Maciej Czapiewski і був встановлений на
+                    турнірі "Grudzi?dz Open 2016" у 2016 році.</p>
+                <p>Майстерність спідкуберів зростає.</p>
+
+                <p>Інженери проектують головоломки покращують їх технічні характеристики.
+                    Рекорди оновлюються та покращуються.</p>
+
+                <p>Але деякі здобутки залишаються недосяжними з минулих років.</p>
+                <p>Мій особистий рекорд <strong>2,59</strong> cекунди.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="img/maciek.czapiewski.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container py-5">
+        <div class="row text-center justify-content-center">
+            <h3>Відео як збирати кубик рубика 2х2</h3>
+            <div class="col-md-9">
+                <div class="ratio ratio-16x9">
+                    <iframe src="https://www.youtube.com/embed/azC6P3VYFkc" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h5>Схема кубика Рубіка 3х3 має дещо інші алгоритми, про які я розповім на наступній сторінці <i
+                        class="fa-solid fa-arrow-down"></i></h5>
+                <a href="3x3.html" class="btn btn-secondary">Тицяй</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid footer">
+        <div class="container">
+            <div class="row align-items-between">
+                <div class="col-sm-6">
+                    <p>by DeNiS</p>
+                    <a href="#" class="socio-link"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="socio-link"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#" class="socio-link"><i class="fa-brands fa-telegram"></i></a>
+                    <a href="#" class="socio-link"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+</body>
